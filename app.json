@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "CozyBoard",
+    "slug": "cozyboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CC9071"
+    },
+    "description": "A cozy customizable soundboard for playing your favorite sounds.",
+    "ios": {
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSDocumentPickerUsageDescription": "Select audio files for your soundboard"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abixy.cozyboard"
+    },
+    "android": {
+      "versionCode": 1,
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#CC9071"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.abixy.cozyboard"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bb760f8b-1f3e-4d51-8dfc-ddc07fe813b9"
+      }
+    }
+  }
+}
