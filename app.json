@@ -16,7 +16,8 @@
     "ios": {
       "buildNumber": "1.0.0",
       "infoPlist": {
-        "NSDocumentPickerUsageDescription": "Select audio files for your soundboard"
+        "NSDocumentPickerUsageDescription": "Select audio files for your soundboard",
+        "ITSAppUsesNonExemptEncryption": false
       },
       "supportsTablet": true,
       "bundleIdentifier": "com.abixy.cozyboard"
