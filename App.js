@@ -1211,13 +1211,13 @@ function AppContent() {
                     <Text style={styles.tipText}>
                       • Toggle Night mode to maybe see some fireflies?
                     </Text>
-
+                    {/* 
                     <Text style={styles.tipText}>
                       This is my first app. Hope you find it useful and fun.  Send comments and suggestions.
                     </Text>
-
+                    */}
                     <Text style={styles.tipText}>
-                      Song "Whimsy Lane" used by permission from "lithop", the author.
+                      • Song "Whimsy Lane" used by permission of the author.
                     </Text>
                   </View>
 
